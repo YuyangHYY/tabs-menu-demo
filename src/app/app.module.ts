@@ -6,6 +6,7 @@ import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
 import { SettingsPage } from '../pages/settings/settings';
+import { BrowserModule } from '@angular/platform-browser';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { SettingsPage } from '../pages/settings/settings';
     SettingsPage
   ],
   imports: [
+  BrowserModule, 
     IonicModule.forRoot(MyApp)
   ],
   bootstrap: [IonicApp],
